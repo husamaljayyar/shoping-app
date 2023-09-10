@@ -1,0 +1,93 @@
+.orderContainer {
+  width: 1350px;
+  max-width: 90%;
+  margin: 0 10px 0 10px;
+}
+
+.reviewOrder {
+  width: 920px;
+  background-color: #f5f5f7;
+  min-height: 500px;
+}
+
+.shippingAddress {
+  width: 920px;
+  max-width: 90%;
+  background-color: #f5f5f7;
+  min-height: 500px;
+
+}
+
+.Ccheckout {
+  background-color: #f5f5f7;
+  width: 400px;
+}
+
+input {
+  height: 40px;
+  border: 1px solid #959393;
+
+}
+
+.order-detailss {
+  width: 400px;
+  max-width: 90%;
+  background-color: #f5f5f7;
+}
+
+.order-image {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 992px) {
+  .Ccheckout {
+    width: 90% !important;
+    margin: 20px;
+  }
+
+  .reviewOrder {
+    max-width: 90%;
+  }
+
+  .order-detailss {
+    width: 100% !important;
+  }
+}
+
+
+
+
+
+
+
+/* Table Style */
+table {
+  border-radius: 20px;
+  width: 200px;
+ }
+
+.thead {
+/*   font-size: 18px;
+ */}
+
+table th:first-child {
+  border-radius: 10px 0 0 0;
+  height: 50px !important;
+}
+
+table th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+tr {
+  border-bottom: 1px solid rgb(180, 179, 179);
+}
+
+tr:first-of-type {
+  border: none;
+}
+
+tr:last-of-type {
+  border: none;
+}

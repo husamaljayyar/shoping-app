@@ -1,0 +1,14 @@
+.product_card {
+  width: 300px;
+  height: auto;
+}
+
+.image_card {
+  height: 250px;
+}
+
+.card{
+  max-width: 350px !important;
+
+  
+}

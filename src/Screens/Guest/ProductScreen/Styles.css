@@ -1,0 +1,76 @@
+.main_container {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.innerContanierrer {
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 920px) {
+  .innerContanierrer {
+    width: 1000px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ThumbnailSlider {
+    height: 100%;
+    padding-top: 40px;
+  }
+}
+
+.productReview {
+  width: 1000px;
+  max-width: 80%;
+}
+
+@media (min-width: 500px) {
+  .containerButton {
+    width: 75%;
+  }
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+  width: 45px;
+  height: 35px;
+  padding-left: 10px;
+  border: 2px solid rgb(255 75 0);
+}
+
+.border-botton {
+  border-bottom: 1px solid #ededed;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 40px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}

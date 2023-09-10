@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.containerss {
+  width: 1350px;
+  max-width: 90%;
+
+}
+
+/*   Styling the default Slick    */
+.slick-dots {
+  position: absolute;
+  bottom: 0px !important;
+  color: #fff !important;
+
+}
+
+.slick-dots li.slick-active button:before {
+  color: White !important;
+}
+
+.slick-arrow:before {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000 !important;
+  font-size: xx-large !important;
+}
+
+.slick-next {
+  right: 0 !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+}
+
+.slick-arrow {
+  z-index: 2 !important;
+}
+
+
+
+/* review product */
+.on {
+  color: #ff7500;
+}
+
+.off {
+  color: #ccc;
+}
+
+
+ .pointer-events{
+  cursor: pointer !important;
+}  
+
+
+/*____________________________________________________________*/
+
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff5d00;
+}
+
+.inner-container {
+  width: 90%;
+}
+
+.bg-container {
+  background-color: rgb(249, 249, 249);
+}

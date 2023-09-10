@@ -1,0 +1,41 @@
+.footer-contant {
+  width: 100%;
+  max-width: 1300px;
+}
+
+.fotter-InputButton {
+  color: #f9823c;
+  top: 3px;
+  left: -40px;
+  height: 100%;
+}
+
+.footer-title {
+  position: relative;
+/*   border-bottom: 1.5px solid #f9823c;
+ */  padding: 7px 0;
+  width: 140px;
+  text-transform: uppercase;
+}
+
+.footer-about {
+  width: 280px;
+}
+
+@media (max-width: 730px) {
+  .footer-ListContant {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

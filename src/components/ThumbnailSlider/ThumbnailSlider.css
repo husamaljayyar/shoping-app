@@ -1,0 +1,16 @@
+
+  .slick-slider {
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .mainContanier {
+    width: 420px;
+    }
+  
+  .Slider2 {
+    position: relative;
+    top: -4px;
+    height: 132px;
+  }
+   

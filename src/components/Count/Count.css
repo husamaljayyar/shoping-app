@@ -1,0 +1,21 @@
+.contanier-count {
+  height: 30px;
+  width: 115px;
+}
+
+.count-btn {
+  left: 1059px;
+  height: 100%;
+  margin-top: 8px;
+  width: 30px;
+  color: #fff;
+ 
+/*   background-color: #ff5500;
+ */  opacity: 1;
+  padding-bottom: 2px;
+}
+
+.count-btn:hover {
+  color: #fff;
+  opacity: 0.8;
+}
